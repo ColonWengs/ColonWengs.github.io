@@ -73,7 +73,6 @@
     				direction = 1;
 				}
     			box.css('left', position);
-    			box.text(points);
     			position = position + (speed * direction);
 
 				
@@ -87,6 +86,7 @@
 				speed = speed + 3;
 				position = 0;
 				points = points + 1;
+				box.text(points);
 			};
 
 
